@@ -174,7 +174,7 @@ document.getElementById('noBtn').addEventListener('click', function() {
 
         case 10:
            
-            document.getElementById('noBtn').innerHTML = 'A pesar de todo la lealtad y el respeto siempre sera importante para mi;
+            document.getElementById('noBtn').innerHTML = 'A pesar de todo la lealtad y el respeto siempre sera importante para mi';
             document.getElementById('noBtn').style.backgroundColor = '#F1330A';
 
          
