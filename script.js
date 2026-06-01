@@ -118,7 +118,7 @@ document.getElementById('noBtn').addEventListener('click', function() {
             break;
         case 5:
            
-            document.getElementById('siBtn').innerHTML = 'Y sobretodo a pesar de cualquier circuntacia';
+            document.getElementById('noBtn').innerHTML = 'Y sobretodo a pesar de cualquier circuntacia';
             document.getElementById('noBtn').style.backgroundColor = '#F1330A';
 
             // Hacer que el botón "Sí" crezca
@@ -235,8 +235,8 @@ document.getElementById('noBtn').addEventListener('click', function() {
             document.getElementById('noBtn').style.backgroundColor = '#F1330A';
 
             // Hacer que el botón "Sí" crezca
-            document.getElementById('noBtn').style.fontSize = '280px';
-            document.getElementById('noBtn').style.padding = '170px 280px';
+            document.getElementById('noBtn').style.fontSize = '260px';
+            document.getElementById('noBtn').style.padding = '160px 260px';
           
             noButtonState++;
             break;
