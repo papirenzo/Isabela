@@ -20,7 +20,7 @@ document.getElementById('siBtn').addEventListener('click', function() {
 
     // Mostrar el mensaje específico
     document.getElementById('messageContainer').style.display = 'block';
-    document.getElementById('messageContainer').innerHTML = '¡OH SI JAJAJA';
+    document.getElementById('messageContainer').innerHTML = '¡Tienes que presionar el boton rojo ';
 
     // Mostrar otro gif después de 3 segundos
     setTimeout(function() {
@@ -49,7 +49,7 @@ document.getElementById('noBtn').addEventListener('click', function() {
             document.getElementById('sadGifContainer').style.display = 'block';
 
             // Modificar el botón "No"
-            document.getElementById('noBtn').innerHTML = 'MARINAAA ESTAS SEGURA?';
+            document.getElementById('noBtn').innerHTML = 'Porqueee...?';
             document.getElementById('noBtn').style.backgroundColor = '#F1330A';
           
             
@@ -67,7 +67,7 @@ document.getElementById('noBtn').addEventListener('click', function() {
         case 1:
             // Segunda vez haciendo clic en "No"
 
-            document.getElementById('noBtn').innerHTML = '¡¿Realmente estas seguraaaa :( ?!';
+            document.getElementById('noBtn').innerHTML = '¡Tu forma en como percibes las cosas !';
             document.getElementById('noBtn').style.backgroundColor = '#F1330A';
             document.getElementById('sadGifContainer').style.display = 'none';
             document.getElementById('sadGifContainer2').style.display = 'block';
@@ -81,7 +81,7 @@ document.getElementById('noBtn').addEventListener('click', function() {
 
         case 2:
            
-            document.getElementById('noBtn').innerHTML = 'Estás segura de verdad, no seas asi marinaaaaaa ';
+            document.getElementById('noBtn').innerHTML = 'Tu bonita personalidad divertida y sonriente';
             document.getElementById('noBtn').style.backgroundColor = '#F1330A';
             document.getElementById('sadGifContainer').style.display = 'none';
             document.getElementById('sadGifContainer2').style.display = 'none';
@@ -96,7 +96,7 @@ document.getElementById('noBtn').addEventListener('click', function() {
         
         case 3:
            
-            document.getElementById('noBtn').innerHTML = 'No presiones aqui';
+            document.getElementById('noBtn').innerHTML = 'Tu preocupacion por las personas que aprecias';
             document.getElementById('noBtn').style.backgroundColor = '#F1330A';
 
             // Hacer que el botón "Sí" crezca
@@ -107,7 +107,7 @@ document.getElementById('noBtn').addEventListener('click', function() {
             break;
         case 4:
            
-            document.getElementById('noBtn').innerHTML = 'por que lo haces :(';
+            document.getElementById('noBtn').innerHTML = 'Las ganas de seguir avanzando a pesar de lo dificil';
             document.getElementById('noBtn').style.backgroundColor = '#F1330A';
 
             // Hacer que el botón "Sí" crezca
@@ -118,7 +118,7 @@ document.getElementById('noBtn').addEventListener('click', function() {
             break;
         case 5:
            
-            document.getElementById('noBtn').innerHTML = 'yo se que tienes una bonita voz , lo se jaja';
+            document.getElementById('noBtn').innerHTML = 'Y sobretodo a pesar de cualquier circuntacia';
             document.getElementById('noBtn').style.backgroundColor = '#F1330A';
 
             // Hacer que el botón "Sí" crezca
@@ -129,7 +129,7 @@ document.getElementById('noBtn').addEventListener('click', function() {
             break;
         case 6:
            
-            document.getElementById('noBtn').innerHTML = 'Si dices que no estaré muy triste muy tristeeee';
+            document.getElementById('noBtn').innerHTML = 'Siempre tratas de ver el lado positivo a las cosas';
             document.getElementById('noBtn').style.backgroundColor = '#F1330A';
 
             // Hacer que el botón "Sí" crezca
@@ -140,7 +140,7 @@ document.getElementById('noBtn').addEventListener('click', function() {
             break;
         case 7:
            
-            document.getElementById('noBtn').innerHTML = 'vez que no te importa :( pipi';
+            document.getElementById('noBtn').innerHTML = 'Y agradezco a Diosito por cruzarme en tu camino';
             document.getElementById('noBtn').style.backgroundColor = '#F1330A';
 
             // Hacer que el botón "Sí" crezca
@@ -151,7 +151,7 @@ document.getElementById('noBtn').addEventListener('click', function() {
             break;
         case 8:
            
-            document.getElementById('noBtn').innerHTML = 'Estaré muy muy muy triste tristeeeeeeee ';
+            document.getElementById('noBtn').innerHTML = 'Sobretodas las cosas estare para ti';
             document.getElementById('noBtn').style.backgroundColor = '#F1330A';
 
             document.getElementById('siBtn').style.fontSize = '140px';
@@ -162,7 +162,7 @@ document.getElementById('noBtn').addEventListener('click', function() {
 
         case 9:
            
-            document.getElementById('noBtn').innerHTML = 'no lo hagaaaaaaas.';
+            document.getElementById('noBtn').innerHTML = 'en los mejores y dificiles momentos ';
             document.getElementById('noBtn').style.backgroundColor = '#F1330A';
 
             // Hacer que el botón "Sí" crezca
@@ -174,7 +174,7 @@ document.getElementById('noBtn').addEventListener('click', function() {
 
         case 10:
            
-            document.getElementById('noBtn').innerHTML = 'esta bien , ya dejaré de preguntar (Presiona otra vez)';
+            document.getElementById('noBtn').innerHTML = 'A pesar de todo la lealtad y el respeto siempre sera importante para mi;
             document.getElementById('noBtn').style.backgroundColor = '#F1330A';
 
          
@@ -185,7 +185,7 @@ document.getElementById('noBtn').addEventListener('click', function() {
             break;
         case 11:
            
-            document.getElementById('noBtn').innerHTML = 'Es broma, POR FAVOR DI SÍ';
+            document.getElementById('noBtn').innerHTML = 'Ya que no mereces ser comprendida , si no amada';
             document.getElementById('noBtn').style.backgroundColor = '#F1330A';
 
             document.getElementById('siBtn').style.fontSize = '200px';
@@ -196,7 +196,7 @@ document.getElementById('noBtn').addEventListener('click', function() {
         
         case 12:
            
-            document.getElementById('noBtn').innerHTML = 'nose mi dedito dice que digas si xd .';
+            document.getElementById('noBtn').innerHTML = 'Si llegaste hasta aqui.';
             document.getElementById('noBtn').style.backgroundColor = '#F1330A';
 
             // Hacer que el botón "Sí" crezca
@@ -208,7 +208,7 @@ document.getElementById('noBtn').addEventListener('click', function() {
         
         case 13:
            
-            document.getElementById('noBtn').innerHTML = 'Estás rompiendo mi corazón de melon y ojitos de limon :(';
+            document.getElementById('noBtn').innerHTML = 'Gracias por tomarte tu tiempo';
             document.getElementById('noBtn').style.backgroundColor = '#F1330A';
 
             document.getElementById('siBtn').style.fontSize = '240px';
@@ -219,7 +219,7 @@ document.getElementById('noBtn').addEventListener('click', function() {
         
         case 14:
            
-            document.getElementById('noBtn').innerHTML = 'Estas muy guapa lo sabias?';
+            document.getElementById('noBtn').innerHTML = 'Espero te guste este bonito detalle';
             document.getElementById('noBtn').style.backgroundColor = '#F1330A';
 
             // Hacer que el botón "Sí" crezca
@@ -231,7 +231,7 @@ document.getElementById('noBtn').addEventListener('click', function() {
         
         case 15:
            
-            document.getElementById('noBtn').innerHTML = 'mamasitaaa wuuuu jaja';
+            document.getElementById('noBtn').innerHTML = 'A si virtual aunque sea ';
             document.getElementById('noBtn').style.backgroundColor = '#F1330A';
 
             // Hacer que el botón "Sí" crezca
@@ -243,7 +243,7 @@ document.getElementById('noBtn').addEventListener('click', function() {
         
      
         case 16:
-                document.getElementById('noBtn').innerHTML = 'jajaja mejor yo te cantare';
+                document.getElementById('noBtn').innerHTML = 'Te quiero <3 ';
                 document.getElementById('noBtn').style.backgroundColor = '#F1330A';
               
                 document.getElementById('sadGifContainer').style.display = 'none';
