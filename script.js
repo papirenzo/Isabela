@@ -42,20 +42,21 @@ document.getElementById('siBtn').addEventListener('click', function() {
 
 document.getElementById('noBtn').addEventListener('click', function() {
     switch (noButtonState) {
-        case 0:
-            // Primera vez haciendo clic en "No"
-            document.getElementById('happyGifContainer').style.display = 'none';
-            document.getElementById('gifContainer').style.display = 'none';
-            document.getElementById('sadGifContainer').style.display = 'block';
+       case 0:
+    document.getElementById('happyGifContainer').style.display = 'none';
+    document.getElementById('gifContainer').style.display = 'none';
+    document.getElementById('sadGifContainer').style.display = 'block';
 
-            // Modificar el botón "No"
-            document.getElementById('noBtn').innerHTML = 'Porqueee...?';
-            document.getElementById('noBtn').style.backgroundColor = '#F1330A';
-          
-            
-            document.getElementById('noBtn').style.fontSize = '40px';
-            document.getElementById('noBtn').style.padding = '20px 40px';
-       
+    document.getElementById('noBtn').innerHTML = 'Porqueee...?';
+    document.getElementById('noBtn').style.backgroundColor = '#F1330A';
+
+    /* AGRANDAR BOTÓN ROJO */
+    document.getElementById('noBtn').style.transform = 'scale(2)';
+    document.getElementById('noBtn').style.transition = 'all 0.3s ease';
+
+    noButtonClickCount++;
+    noButtonState++;
+    break;
             
            
 
