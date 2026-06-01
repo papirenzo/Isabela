@@ -51,8 +51,7 @@ document.getElementById('noBtn').addEventListener('click', function() {
     document.getElementById('noBtn').style.backgroundColor = '#F1330A';
 
     /* AGRANDAR BOTÓN ROJO */
-    document.getElementById('noBtn').style.transform = 'scale(2)';
-    document.getElementById('noBtn').style.transition = 'all 0.3s ease';
+document.getElementById('noBtn').style.transform = 'scale(1.2)';
 
     noButtonClickCount++;
     noButtonState++;
@@ -90,11 +89,11 @@ document.getElementById('noBtn').addEventListener('click', function() {
         
         case 3:
            
-            document.getElementById('noBtn').innerHTML = 'Tu preocupacion por las personas que aprecias';
+            document.getElementById('noBtn').innerHTML = 'Tu preocupacion por las personasque aprecias';
             document.getElementById('noBtn').style.backgroundColor = '#F1330A';
 
             // Hacer que el botón "Sí" crezca
-         document.getElementById('noBtn').style.transform = 'scale(1.6)';
+         document.getElementById('noBtn').style.transform = 'scale(1.4)';
         
             noButtonState++;
             break;
@@ -104,7 +103,7 @@ document.getElementById('noBtn').addEventListener('click', function() {
             document.getElementById('noBtn').style.backgroundColor = '#F1330A';
 
             // Hacer que el botón "Sí" crezca
-         document.getElementById('noBtn').style.transform = 'scale(1.8)';
+         document.getElementById('noBtn').style.transform = 'scale(1.4)';
          
             noButtonState++;
             break;
