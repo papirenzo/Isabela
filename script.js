@@ -51,7 +51,7 @@ document.getElementById('noBtn').addEventListener('click', function() {
     document.getElementById('noBtn').style.backgroundColor = '#F1330A';
 
     /* AGRANDAR BOTÓN ROJO */
-document.getElementById('noBtn').style.transform = 'scale(1.2)';
+ document.getElementById('noBtn').style.transform = 'scale(1.10)';
 
     noButtonClickCount++;
     noButtonState++;
@@ -68,7 +68,7 @@ document.getElementById('noBtn').style.transform = 'scale(1.2)';
             document.getElementById('sadGifContainer2').style.display = 'block';
 
             // Hacer que el botón "Sí" crezca
-            document.getElementById('noBtn').style.transform = 'scale(1.2)';
+             document.getElementById('noBtn').style.transform = 'scale(1.10)';
         
             noButtonState++;
             break;
@@ -82,7 +82,7 @@ document.getElementById('noBtn').style.transform = 'scale(1.2)';
             document.getElementById('sadGifContainer1').style.display = 'block';
 
             // Hacer que el botón "Sí" crezca
-            document.getElementById('noBtn').style.transform = 'scale(1.4)';
+             document.getElementById('noBtn').style.transform = 'scale(1.10)';
         
             noButtonState++;
             break;
@@ -93,7 +93,7 @@ document.getElementById('noBtn').style.transform = 'scale(1.2)';
             document.getElementById('noBtn').style.backgroundColor = '#F1330A';
 
             // Hacer que el botón "Sí" crezca
-         document.getElementById('noBtn').style.transform = 'scale(1.4)';
+         document.getElementById('noBtn').style.transform = 'scale(1.10)';
         
             noButtonState++;
             break;
@@ -103,7 +103,7 @@ document.getElementById('noBtn').style.transform = 'scale(1.2)';
             document.getElementById('noBtn').style.backgroundColor = '#F1330A';
 
             // Hacer que el botón "Sí" crezca
-         document.getElementById('noBtn').style.transform = 'scale(1.4)';
+          document.getElementById('noBtn').style.transform = 'scale(1.10)';
          
             noButtonState++;
             break;
