@@ -60,11 +60,6 @@ document.getElementById('noBtn').addEventListener('click', function() {
             
            
 
-        
-            noButtonClickCount++;
-            noButtonState++;
-            break;
-
         case 1:
             // Segunda vez haciendo clic en "No"
 
@@ -74,8 +69,7 @@ document.getElementById('noBtn').addEventListener('click', function() {
             document.getElementById('sadGifContainer2').style.display = 'block';
 
             // Hacer que el botón "Sí" crezca
-            document.getElementById('noBtn').style.fontSize = '20px';
-            document.getElementById('noBtn').style.padding = '12px 24px';
+            document.getElementById('noBtn').style.transform = 'scale(1.2)';
         
             noButtonState++;
             break;
@@ -89,8 +83,7 @@ document.getElementById('noBtn').addEventListener('click', function() {
             document.getElementById('sadGifContainer1').style.display = 'block';
 
             // Hacer que el botón "Sí" crezca
-            document.getElementById('noBtn').style.fontSize = '20px';
-            document.getElementById('noBtn').style.padding = '12px 24px';
+            document.getElementById('noBtn').style.transform = 'scale(1.4)';
         
             noButtonState++;
             break;
@@ -101,8 +94,7 @@ document.getElementById('noBtn').addEventListener('click', function() {
             document.getElementById('noBtn').style.backgroundColor = '#F1330A';
 
             // Hacer que el botón "Sí" crezca
-            document.getElementById('noBtn').style.fontSize = '20px';
-            document.getElementById('noBtn').style.padding = '12px 24px';
+         document.getElementById('noBtn').style.transform = 'scale(1.6)';
         
             noButtonState++;
             break;
@@ -112,8 +104,7 @@ document.getElementById('noBtn').addEventListener('click', function() {
             document.getElementById('noBtn').style.backgroundColor = '#F1330A';
 
             // Hacer que el botón "Sí" crezca
-            document.getElementById('noBtn').style.fontSize = '20px';
-            document.getElementById('noBtn').style.padding = '12px 24px';
+         document.getElementById('noBtn').style.transform = 'scale(1.8)';
          
             noButtonState++;
             break;
@@ -123,8 +114,7 @@ document.getElementById('noBtn').addEventListener('click', function() {
             document.getElementById('noBtn').style.backgroundColor = '#F1330A';
 
             // Hacer que el botón "Sí" crezca
-            document.getElementById('noBtn').style.fontSize = '20px';
-            document.getElementById('noBtn').style.padding = '12px 24px';
+          document.getElementById('noBtn').style.transform = 'scale(1.10)';
 
             noButtonState++;
             break;
@@ -134,8 +124,7 @@ document.getElementById('noBtn').addEventListener('click', function() {
             document.getElementById('noBtn').style.backgroundColor = '#F1330A';
 
             // Hacer que el botón "Sí" crezca
-            document.getElementById('noBtn').style.fontSize = '20px';
-            document.getElementById('noBtn').style.padding = '12px 24px';
+           document.getElementById('noBtn').style.transform = 'scale(1.10)';
             
             noButtonState++;
             break;
@@ -145,8 +134,7 @@ document.getElementById('noBtn').addEventListener('click', function() {
             document.getElementById('noBtn').style.backgroundColor = '#F1330A';
 
             // Hacer que el botón "Sí" crezca
-            document.getElementById('noBtn').style.fontSize = '20px';
-            document.getElementById('noBtn').style.padding = '12px 24px';
+              document.getElementById('noBtn').style.transform = 'scale(1.10)';
   
             noButtonState++;
             break;
@@ -155,8 +143,7 @@ document.getElementById('noBtn').addEventListener('click', function() {
             document.getElementById('noBtn').innerHTML = 'Sobretodas las cosas estare para ti';
             document.getElementById('noBtn').style.backgroundColor = '#F1330A';
 
-            document.getElementById('noBtn').style.fontSize = '20px';
-            document.getElementById('noBtn').style.padding = '12px 24px';
+           document.getElementById('noBtn').style.transform = 'scale(1.10)';
        
             noButtonState++;
             break;
@@ -167,8 +154,7 @@ document.getElementById('noBtn').addEventListener('click', function() {
             document.getElementById('noBtn').style.backgroundColor = '#F1330A';
 
             // Hacer que el botón "Sí" crezca
-            document.getElementById('noBtn').style.fontSize = '20px';
-            document.getElementById('noBtn').style.padding = '12px 24px';
+              document.getElementById('noBtn').style.transform = 'scale(1.10)';
           
             noButtonState++;
             break;
@@ -179,8 +165,7 @@ document.getElementById('noBtn').addEventListener('click', function() {
             document.getElementById('noBtn').style.backgroundColor = '#F1330A';
 
          
-            document.getElementById('noBtn').style.fontSize = '20px';
-            document.getElementById('noBtn').style.padding = '12px 24px';
+              document.getElementById('noBtn').style.transform = 'scale(1.10)';
     
             noButtonState++;
             break;
@@ -189,8 +174,7 @@ document.getElementById('noBtn').addEventListener('click', function() {
             document.getElementById('noBtn').innerHTML = 'Ya que no mereces ser comprendida , si no amada';
             document.getElementById('noBtn').style.backgroundColor = '#F1330A';
 
-            document.getElementById('noBtn').style.fontSize = '20px';
-            document.getElementById('noBtn').style.padding = '12px 24px';
+             document.getElementById('noBtn').style.transform = 'scale(1.10)';
             
             noButtonState++;
             break;
@@ -201,8 +185,7 @@ document.getElementById('noBtn').addEventListener('click', function() {
             document.getElementById('noBtn').style.backgroundColor = '#F1330A';
 
             // Hacer que el botón "Sí" crezca
-            document.getElementById('noBtn').style.fontSize = '20px';
-            document.getElementById('noBtn').style.padding = '12px 24px';
+              document.getElementById('noBtn').style.transform = 'scale(1.10)';
     
             noButtonState++;
             break;
@@ -212,8 +195,7 @@ document.getElementById('noBtn').addEventListener('click', function() {
             document.getElementById('noBtn').innerHTML = 'Gracias por tomarte tu tiempo';
             document.getElementById('noBtn').style.backgroundColor = '#F1330A';
 
-            document.getElementById('noBtn').style.fontSize = '20px';
-            document.getElementById('noBtn').style.padding = '12px 24px';
+              document.getElementById('noBtn').style.transform = 'scale(1.10)';
          
             noButtonState++;
             break;
@@ -224,8 +206,7 @@ document.getElementById('noBtn').addEventListener('click', function() {
             document.getElementById('noBtn').style.backgroundColor = '#F1330A';
 
             // Hacer que el botón "Sí" crezca
-            document.getElementById('noBtn').style.fontSize = '20px';
-            document.getElementById('noBtn').style.padding = '12px 24px';
+             document.getElementById('noBtn').style.transform = 'scale(1.10)';
             
             noButtonState++;
             break;
@@ -236,8 +217,7 @@ document.getElementById('noBtn').addEventListener('click', function() {
             document.getElementById('noBtn').style.backgroundColor = '#F1330A';
 
             // Hacer que el botón "Sí" crezca
-            document.getElementById('noBtn').style.fontSize = '20px';
-            document.getElementById('noBtn').style.padding = '12px 24px';
+             document.getElementById('noBtn').style.transform = 'scale(1.10)';
           
             noButtonState++;
             break;
